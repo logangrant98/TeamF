@@ -10,10 +10,10 @@ import java.sql.*;
  * @author John
  */
 public class Badge {
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-   static final String DB_URL = "jdbc:mysql://localhost:3306/Tas";
-   static final String USER = "tasuser";
-   static final String PASS = "cs310groupf";
+    public static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+   public static final String DB_URL = "jdbc:mysql://localhost:3306/Tas";
+   public static final String USER = "tasuser";
+   public static final String PASS = "cs310groupf";
    
    public void Badge(){
     Connection conn = null;
